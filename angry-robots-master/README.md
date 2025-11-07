@@ -1,11 +1,4 @@
 Robot Survival Game
-A fully functional 2D game prototype created using **Godot 4** and **GDScript**.
-
-The idea of the game is similar to [Dodge the Creeps!](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) from the Godot's User Manual:
-
-<p align="center">
-<img src="images/angry_robots_sketch.png" alt="The game idea sketch" width="560"/>
-</p>
 
 1. **Main menu:** Shows "Angry Robots" in the center of the screen, the current and the highest score, and the "Start" button.
 
@@ -34,7 +27,3 @@ The idea of the game is similar to [Dodge the Creeps!](https://docs.godotengine.
 <p align="center">
 <img src="images/angry_robots_game.png" alt="The gameplay screenshot" width="520"/>
 </p>
-
-## Video
-
-The gameplay is demonstrated in this quick YouTube [video](https://www.youtube.com/watch?v=39mzb6HAR-E).
