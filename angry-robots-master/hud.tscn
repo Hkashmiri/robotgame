@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://bdte2ftg6qu1k"]
 
 [ext_resource type="FontFile" uid="uid://b81lok3nrqofl" path="res://fonts/BrunoAceSC-Regular.ttf" id="1_5mb7e"]
-[ext_resource type="Script" path="res://hud.gd" id="1_q1mka"]
+[ext_resource type="Script" uid="uid://c8j0yprtkcry8" path="res://hud.gd" id="1_q1mka"]
 [ext_resource type="AudioStream" uid="uid://p3e1b3il5wqg" path="res://music/menu.ogg" id="3_t6w47"]
 [ext_resource type="AudioStream" uid="uid://d1od6dml23uow" path="res://sounds/select.wav" id="4_gppev"]
 

@@ -1,5 +1,4 @@
-# Angry Robots game prototype
-
+Robot Survival Game
 A fully functional 2D game prototype created using **Godot 4** and **GDScript**.
 
 The idea of the game is similar to [Dodge the Creeps!](https://docs.godotengine.org/en/stable/getting_started/first_2d_game/index.html) from the Godot's User Manual:
@@ -39,11 +38,3 @@ The idea of the game is similar to [Dodge the Creeps!](https://docs.godotengine.
 ## Video
 
 The gameplay is demonstrated in this quick YouTube [video](https://www.youtube.com/watch?v=39mzb6HAR-E).
-
-## Tutorial
-
-Here is the link to the tutorial (see Chapter 8): [https://www.amazon.com/dp/B0C4YJ1T4X](https://www.amazon.com/dp/B0C4YJ1T4X)
-
-In this practical book, you will get hands-on experience working with Godot 4 and writing your own code in GDScript.
-
-You will learn how to create applications – usually games – from outlining the idea to releasing the final product. The material in this book is organized systematically, from how to install Godot, set up the first scene, and add a custom script to prototyping and creating a fully functional game. You will learn how to use GDScript in your projects efficiently, even if you have no prior experience in programming and game development.
