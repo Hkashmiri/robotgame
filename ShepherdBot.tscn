@@ -1,0 +1,30 @@
+[gd_scene load_steps=4 format=3 uid="uid://c0irolt02l5ex"]
+
+[ext_resource type="Script" uid="uid://dv7sxt4fo57ti" path="res://ShepherdBot.gd" id="1_phw8v"]
+[ext_resource type="Texture2D" uid="uid://cskfdk4cvf640" path="res://icon.svg" id="2_cu3yq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jss6h"]
+size = Vector2(119, 119)
+
+[node name="Mob" type="RigidBody2D" groups=["mobs"]]
+visible = false
+light_mask = 2
+collision_mask = 0
+gravity_scale = 0.0
+script = ExtResource("1_phw8v")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+visible = false
+modulate = Color(1, 0, 0, 1)
+texture = ExtResource("2_cu3yq")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+position = Vector2(0.5, -0.5)
+shape = SubResource("RectangleShape2D_jss6h")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+visible = false
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

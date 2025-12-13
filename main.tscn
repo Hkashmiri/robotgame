@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://vkajdr5g7nm"]
+
+[ext_resource type="PackedScene" uid="uid://nxu422j8cpeg" path="res://player.tscn" id="1_0lqt3"]
+[ext_resource type="Script" uid="uid://ch13laqn0m8y3" path="res://main.gd" id="1_i7ymp"]
+[ext_resource type="PackedScene" uid="uid://mn6ttvnda7lv" path="res://mob.tscn" id="2_272bh"]
+[ext_resource type="PackedScene" uid="uid://cm6p28yvsi8vv" path="res://TrackerMob.tscn" id="3_5vw27"]
+[ext_resource type="PackedScene" uid="uid://sbvqxuprfpig" path="res://hud.tscn" id="4_asq8g"]
+[ext_resource type="PackedScene" uid="uid://c1vslj1wllvp4" path="res://GhostMob.tscn" id="4_kek77"]
+[ext_resource type="AudioStream" uid="uid://dnywl55o618mj" path="res://sounds/hit.wav" id="6_g46o1"]
+[ext_resource type="AudioStream" uid="uid://8g7lourifttt" path="res://music/battle.ogg" id="6_lrdyo"]
+[ext_resource type="AudioStream" uid="uid://c68ig38p0xn2a" path="res://sounds/crashed.wav" id="7_aixf5"]
+
+[sub_resource type="Curve2D" id="Curve2D_r44yl"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1200, 0, 0, 0, 0, 0, 1200, 720, 0, 0, 0, 0, 0, 720, 0, 0, 0, 0, 0, 0)
+}
+point_count = 5
+
+[node name="Main" type="Node" groups=["main"]]
+script = ExtResource("1_i7ymp")
+mob_scene = ExtResource("2_272bh")
+tracker_mob_scene = ExtResource("3_5vw27")
+ghost_mob_scene = ExtResource("4_kek77")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.243137, 0.345098, 0.572549, 1)
+
+[node name="Player" parent="." groups=["player"] instance=ExtResource("1_0lqt3")]
+
+[node name="MobTimer" type="Timer" parent="."]
+wait_time = 0.5
+
+[node name="ScoreTimer" type="Timer" parent="."]
+
+[node name="StartTimer" type="Timer" parent="."]
+wait_time = 2.0
+one_shot = true
+
+[node name="StartPosition" type="Marker2D" parent="."]
+position = Vector2(600, 360)
+
+[node name="MobSpawnPath" type="Path2D" parent="."]
+curve = SubResource("Curve2D_r44yl")
+
+[node name="MobSpawnLocation" type="PathFollow2D" parent="MobSpawnPath"]
+
+[node name="HUD" parent="." instance=ExtResource("4_asq8g")]
+
+[node name="OrbCountLabel2" type="Label" parent="HUD"]
+offset_left = 57.0
+offset_top = 12.0
+offset_right = 97.0
+offset_bottom = 35.0
+
+[node name="GameMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_lrdyo")
+volume_db = -10.0
+
+[node name="HitSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("6_g46o1")
+
+[node name="GameOverSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("7_aixf5")
+
+[connection signal="timeout" from="MobTimer" to="." method="_on_mob_timer_timeout"]
+[connection signal="timeout" from="ScoreTimer" to="." method="_on_score_timer_timeout"]
+[connection signal="timeout" from="StartTimer" to="." method="_on_start_timer_timeout"]
+[connection signal="start_game" from="HUD" to="." method="new_game"]

@@ -1,0 +1,83 @@
+[gd_scene load_steps=6 format=3 uid="uid://bbav4yfwdwbyd"]
+
+[ext_resource type="Script" uid="uid://kubfingjjabm" path="res://menu.gd" id="1_uubjt"]
+[ext_resource type="Texture2D" uid="uid://clwgovlk0jwae" path="res://images/computer_dude_assets3/Computer Dude BG.png" id="2_5yleq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_5yleq"]
+bg_color = Color(0, 0, 0, 0.741176)
+border_width_left = 3
+border_width_top = 3
+border_width_right = 3
+border_width_bottom = 3
+border_color = Color(1, 1, 1, 0.0509804)
+
+[sub_resource type="SystemFont" id="SystemFont_ylpcl"]
+
+[sub_resource type="FontVariation" id="FontVariation_cx167"]
+base_font = SubResource("SystemFont_ylpcl")
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_uubjt")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+offset_right = 1198.0
+offset_bottom = 708.0
+texture = ExtResource("2_5yleq")
+
+[node name="Panel" type="PanelContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 150.0
+offset_top = 100.0
+offset_right = 1050.0
+offset_bottom = 617.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_5yleq")
+
+[node name="MarginContainer" type="MarginContainer" parent="Panel"]
+layout_mode = 2
+theme_override_constants/margin_left = 20
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 20
+theme_override_constants/margin_bottom = 20
+
+[node name="Label" type="Label" parent="Panel/MarginContainer"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.773622, 0.762056, 0.774941, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = SubResource("FontVariation_cx167")
+text = "The network is collapsing. A rogue virus known as the Glitch King has corrupted the robot workforce, turning them into hostile Angry Bots.
+You are one of the last functioning units still capable of fighting back.
+
+Your mission is to push through four corrupted sectors, eliminate hostile units, and locate the Glitch King. The objective is simple: delete the source of the corruption before the system fails completely.
+
+To survive, you will need to gather resources:
+
+Orbs: core data fragments used to unlock new sectors
+
+Gears: scrap currency used to purchase upgrades from the Shopkeeper
+
+The final showdown will test every upgrade you’ve acquired. The Glitch King’s attacks will overwhelm any unprepared unit.
+
+Good luck, last unit. Stay operational, stay alive."
+autowrap_mode = 3
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 2
+offset_left = 1032.0
+offset_top = -1.0
+offset_right = 1218.0
+offset_bottom = 140.0
+theme_type_variation = &"FlatButton"
+theme_override_font_sizes/font_size = 60
+text = "❌"
+
+[connection signal="pressed" from="Button" to="." method="_on_start_button_pressed"]

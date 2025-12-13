@@ -1,0 +1,227 @@
+[gd_scene load_steps=32 format=3 uid="uid://yeks57qvb8aa"]
+
+[ext_resource type="Script" uid="uid://r2csg5k4xmf6" path="res://Shopkeeper.gd" id="1_mshls"]
+[ext_resource type="Texture2D" uid="uid://dr0ahfhki4ldp" path="res://images/computer_dude_assets3/Computer Dude Idle Left.png" id="2_mshls"]
+[ext_resource type="Texture2D" uid="uid://bl7jos6a7xsou" path="res://images/computer_dude_assets3/Computer Dude Run Left.png" id="3_vrnrq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u6qxd"]
+size = Vector2(38.6617, 39.132)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_gndk4"]
+load_path = "res://.godot/imported/Computer Dude Idle.png-fad2e97e5b6c8d1f9cadcfbdbd699065.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hp7wc"]
+atlas = SubResource("CompressedTexture2D_gndk4")
+region = Rect2(0, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mto47"]
+atlas = SubResource("CompressedTexture2D_gndk4")
+region = Rect2(58, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vo54q"]
+atlas = SubResource("CompressedTexture2D_gndk4")
+region = Rect2(87, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_eai7c"]
+atlas = SubResource("CompressedTexture2D_gndk4")
+region = Rect2(29, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_u6qxd"]
+atlas = ExtResource("2_mshls")
+region = Rect2(0, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5hjjy"]
+atlas = ExtResource("2_mshls")
+region = Rect2(29, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vfnrv"]
+atlas = ExtResource("2_mshls")
+region = Rect2(58, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kx7sr"]
+atlas = ExtResource("2_mshls")
+region = Rect2(87, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6leup"]
+atlas = ExtResource("2_mshls")
+region = Rect2(0, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5fd1d"]
+atlas = ExtResource("2_mshls")
+region = Rect2(29, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n3s3x"]
+atlas = ExtResource("2_mshls")
+region = Rect2(58, 0, 29, 35)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6otqd"]
+atlas = ExtResource("2_mshls")
+region = Rect2(87, 0, 29, 35)
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mdc8e"]
+load_path = "res://.godot/imported/Computer Dude Run.png-765104327f92fffd25e44b8dddda3b1d.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7w7jo"]
+atlas = SubResource("CompressedTexture2D_mdc8e")
+region = Rect2(0, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vtc0o"]
+atlas = SubResource("CompressedTexture2D_mdc8e")
+region = Rect2(42, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o7bt4"]
+atlas = SubResource("CompressedTexture2D_mdc8e")
+region = Rect2(84, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6mxgy"]
+atlas = SubResource("CompressedTexture2D_mdc8e")
+region = Rect2(126, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yqk7v"]
+atlas = SubResource("CompressedTexture2D_mdc8e")
+region = Rect2(168, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_64ih5"]
+atlas = SubResource("CompressedTexture2D_mdc8e")
+region = Rect2(210, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e0ak6"]
+atlas = ExtResource("3_vrnrq")
+region = Rect2(0, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gohp2"]
+atlas = ExtResource("3_vrnrq")
+region = Rect2(42, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t8npt"]
+atlas = ExtResource("3_vrnrq")
+region = Rect2(84, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sccyb"]
+atlas = ExtResource("3_vrnrq")
+region = Rect2(126, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1qlxd"]
+atlas = ExtResource("3_vrnrq")
+region = Rect2(168, 0, 42, 36)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pqtro"]
+atlas = ExtResource("3_vrnrq")
+region = Rect2(210, 0, 42, 36)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_5hjjy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hp7wc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mto47")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vo54q")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_eai7c")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_u6qxd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5hjjy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vfnrv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kx7sr")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6leup")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5fd1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n3s3x")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6otqd")
+}],
+"loop": true,
+"name": &"idle left",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7w7jo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vtc0o")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o7bt4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6mxgy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yqk7v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_64ih5")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e0ak6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gohp2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t8npt")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sccyb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1qlxd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pqtro")
+}],
+"loop": true,
+"name": &"run left",
+"speed": 5.0
+}]
+
+[node name="Shopkeeper" type="Area2D"]
+collision_layer = 4
+script = ExtResource("1_mshls")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(10, 2.3675)
+scale = Vector2(2.69, 2.69)
+shape = SubResource("RectangleShape2D_u6qxd")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(3, 3)
+sprite_frames = SubResource("SpriteFrames_5hjjy")
+animation = &"run left"
+
+[node name="DialogueLabel" type="Label" parent="."]
+offset_left = -186.0
+offset_top = -150.0
+offset_right = 8.0
+offset_bottom = -63.0
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
