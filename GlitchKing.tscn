@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=3 uid="uid://cs6ot2d8lxxk1"]
+
+[ext_resource type="Script" uid="uid://dtxkwgktupsae" path="res://glitch_king.gd" id="1_bisu6"]
+[ext_resource type="Texture2D" uid="uid://buql01s13nhy3" path="res://images/Glitch.png" id="2_qm3li"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_04j8s"]
+size = Vector2(307, 291)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qm3li"]
+size = Vector2(32, 25)
+
+[node name="GlitchKing" type="CharacterBody2D"]
+collision_layer = 524288
+script = ExtResource("1_bisu6")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(4.00001, 2.50001)
+scale = Vector2(0.784, 0.79)
+texture = ExtResource("2_qm3li")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+light_mask = 256
+position = Vector2(12.5, 0.5)
+shape = SubResource("RectangleShape2D_04j8s")
+
+[node name="WeakPointTimer" type="Timer" parent="."]
+
+[node name="MobSpawnTimer" type="Timer" parent="."]
+
+[node name="WeakPoint" type="Area2D" parent="."]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="WeakPoint"]
+position = Vector2(180, 65)
+shape = SubResource("RectangleShape2D_qm3li")

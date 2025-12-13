@@ -1,0 +1,73 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1765610956
+Bullet.gd::GDScript/GDScript::6498698859203149266::1765147366::0::1::::<>Area2D<><>0<>0<><>::
+Bullet.tscn::PackedScene/PackedScene::538114754557577642::1765147366::0::1::::<><><>0<>0<><>::uid://cyuavdtsi3hkc::::res://Bullet.gd<>uid://bjgapakbv6gxa::::res://images/circle .png
+EndlessMode.tscn::PackedScene/PackedScene::2959885713439369872::1765147366::0::1::::<><><>0<>0<><>::
+Gear.gd::GDScript/GDScript::693618552996846335::1765147366::0::1::::<>Area2D<><>0<>0<><>::
+Gear.tscn::PackedScene/PackedScene::8840268330668945629::1765147366::0::1::::<><><>0<>0<><>::uid://j482co8mssnn::::res://Gear.gd<>uid://crrvopl1icud3::::res://images/31.png
+GhostMob.gd::GDScript/GDScript::6514289295247930636::1765147366::0::1::::<>RigidBody2D<><>0<>0<><>::
+GhostMob.tscn::PackedScene/PackedScene::6642216298302851895::1765147366::0::1::::<><><>0<>0<><>::uid://cy2tnmiic58o3::::res://GhostMob.gd<>uid://cskfdk4cvf640::::res://icon.svg
+GlitchKing.tscn::PackedScene/PackedScene::6101121655509428370::1765147366::0::1::::<><><>0<>0<><>::uid://dtxkwgktupsae::::res://glitch_king.gd<>uid://buql01s13nhy3::::res://images/Glitch.png
+glitch_king.gd::GDScript/GDScript::8540977557417620836::1765147366::0::1::::<>CharacterBody2D<><>0<>0<><>::
+HealthKit.gd::GDScript/GDScript::1843193877532177783::1765147366::0::1::::<>Area2D<><>0<>0<><>::
+HealthKit.tscn::PackedScene/PackedScene::4288651527329675997::1765147366::0::1::::<><><>0<>0<><>::uid://1i4es0t56n3t::::res://HealthKit.gd
+hud.gd::GDScript/GDScript::7109214206089350629::1765147366::0::1::::<>CanvasLayer<><>0<>0<><>::
+hud.tscn::PackedScene/PackedScene::1266768432426821610::1765147366::0::1::::<><><>0<>0<><>::uid://b81lok3nrqofl::::res://fonts/BrunoAceSC-Regular.ttf<>uid://c8j0yprtkcry8::::res://hud.gd<>uid://p3e1b3il5wqg::::res://music/menu.ogg<>uid://d1od6dml23uow::::res://sounds/select.wav
+icon.svg::CompressedTexture2D/CompressedTexture2D::6057193842908926567::1765147366::1765147366::1::::<><><>0<>0<>8cfc6444ef97fe0c04db2d95ab1ebac7<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.gd::GDScript/GDScript::5319556839329848032::1765147366::0::1::::<>Node<><>0<>0<><>::
+main.tscn::PackedScene::43959580920250038::1765610956::0::1::::<><><>0<>0<><>::uid://nxu422j8cpeg::::res://player.tscn<>uid://ch13laqn0m8y3::::res://main.gd<>uid://mn6ttvnda7lv::::res://mob.tscn<>uid://cm6p28yvsi8vv::::res://TrackerMob.tscn<>uid://sbvqxuprfpig::::res://hud.tscn<>uid://c1vslj1wllvp4::::res://GhostMob.tscn<>uid://dnywl55o618mj::::res://sounds/hit.wav<>uid://8g7lourifttt::::res://music/battle.ogg<>uid://c68ig38p0xn2a::::res://sounds/crashed.wav
+menu.gd::GDScript/GDScript::743246077978062214::1765147366::0::1::::<>Control<><>0<>0<><>::
+Menu.tscn::PackedScene/PackedScene::2457937641491351703::1765147366::0::1::::<><><>0<>0<><>::uid://kubfingjjabm::::res://menu.gd<>uid://clwgovlk0jwae::::res://images/computer_dude_assets3/Computer Dude BG.png
+mob.gd::GDScript/GDScript::6656311035869619291::1765147366::0::1::::<>RigidBody2D<><>0<>0<><>::
+mob.tscn::PackedScene/PackedScene::871020222298371483::1765147366::0::1::::<><><>0<>0<><>::uid://cskfdk4cvf640::::res://icon.svg<>uid://c13mp8vfplyvj::::res://mob.gd
+Orb.gd::GDScript/GDScript::4561622853092934692::1765147366::0::1::::<>Area2D<><>0<>0<><>::
+orb.png::CompressedTexture2D/CompressedTexture2D::4258002182864057933::1765147366::1765147366::1::::<><><>0<>0<>34860b74b640aa236d8e27e169798dbb<>res://.godot/imported/orb.png-179da454b8369cd015dd3fc8f8d0c442.ctex::
+Orb.tscn::PackedScene/PackedScene::2811900214646062232::1765147366::0::1::::<><><>0<>0<><>::uid://b58xi514fhp7a::::res://Orb.gd<>uid://b1wuw5783nrfx::::res://orb.png
+player.gd::GDScript/GDScript::8705884973607187977::1765147366::0::1::::<>Area2D<><>0<>0<><>::
+player.tscn::PackedScene/PackedScene::961203243809654218::1765147366::0::1::::<><><>0<>0<><>::uid://dwbgwhr5t1eld::::res://player.gd<>uid://cskfdk4cvf640::::res://icon.svg<>uid://xguep4p04oib::::res://sounds/boost.wav
+Portal.gd::GDScript/GDScript::3827573876560192912::1765147366::0::1::::<>Area2D<><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1765147366::0::1::::<><><>0<>0<><>::
+ShepherdBot.gd::GDScript/GDScript::8700422877727588414::1765147366::0::1::::<>Node<><>0<>0<><>::
+ShepherdBot.tscn::PackedScene/PackedScene::6545135278641757695::1765147366::0::1::::<><><>0<>0<><>::uid://dv7sxt4fo57ti::::res://ShepherdBot.gd<>uid://cskfdk4cvf640::::res://icon.svg
+Shop.gd::GDScript/GDScript::4923471697214731036::1765147366::0::1::::<>Control<><>0<>0<><>::
+Shop.tscn::PackedScene/PackedScene::6178374205923066646::1765147366::0::1::::<><><>0<>0<><>::uid://dosfxixbjrudb::::res://images/computer_dude_assets3/Computer Man TV.png<>uid://cce74hu1cxqu3::::res://Shop.gd<>uid://cnbnlbirohgdu::::res://images/computer_dude_assets3/Computer Dude Land.png
+Shopkeeper.gd::GDScript/GDScript::1249102481460244929::1765147366::0::1::::<>Area2D<><>0<>0<><>::
+Shopkeeper.tscn::PackedScene/PackedScene::1693430698436322012::1765147366::0::1::::<><><>0<>0<><>::uid://r2csg5k4xmf6::::res://Shopkeeper.gd<>uid://dr0ahfhki4ldp::::res://images/computer_dude_assets3/Computer Dude Idle Left.png<>uid://bl7jos6a7xsou::::res://images/computer_dude_assets3/Computer Dude Run Left.png
+StoryPopup1.tscn::PackedScene/PackedScene::1684848086899005558::1765147366::0::1::::<><><>0<>0<><>::
+StoryPopup.tscn::PackedScene/PackedScene::4617131844312570774::1765147366::0::1::::<><><>0<>0<><>::
+TrackerMob.gd::GDScript/GDScript::93451385834910152::1765147366::0::1::::<>RigidBody2D<><>0<>0<><>::
+TrackerMob.tscn::PackedScene/PackedScene::5680063944069784931::1765147366::0::1::::<><><>0<>0<><>::uid://bljepb50epgq::::res://TrackerMob.gd<>uid://cskfdk4cvf640::::res://icon.svg
+::res://fonts/::1765147366
+BrunoAceSC-Regular.ttf::FontFile/FontFile::4757019802490872093::1765147366::1765147366::1::::<><><>0<>0<>378527351091525825054cee1b192ae9<>res://.godot/imported/BrunoAceSC-Regular.ttf-b2a6d870e645fdfa75c6f460605f5c4d.fontdata::
+OFL.txt::TextFile/TextFile::-1::1765147366::0::1::::<><><>0<>0<><>::
+::res://images/::1765147366
+31.png::CompressedTexture2D/CompressedTexture2D::6002446995049747426::1765147366::1765147366::1::::<><><>0<>0<>fcaa6098b8e7c1747a28b1e29618c07c<>res://.godot/imported/31.png-36be4fe5cd13a78457a7ec4800f4e0af.ctex::
+angry_robots_game.png::CompressedTexture2D/CompressedTexture2D::5159597061113535812::1765147366::1765147366::1::::<><><>0<>0<>c325a130856ed6e81af5166c2faafcd5<>res://.godot/imported/angry_robots_game.png-3ad443808253cf6479e3b07fb9c473b6.ctex::
+angry_robots_menu.png::CompressedTexture2D/CompressedTexture2D::8952556523280831438::1765147366::1765147366::1::::<><><>0<>0<>201aa6dd85329e232ba90270a166f43f<>res://.godot/imported/angry_robots_menu.png-3363476c27034a03978f2c4e69ee09cb.ctex::
+angry_robots_sketch.png::CompressedTexture2D/CompressedTexture2D::8105531822443738642::1765147366::1765147366::1::::<><><>0<>0<>93fe8bf9e7068818c8c966d3c470a335<>res://.godot/imported/angry_robots_sketch.png-065638ddf403d0f237c2c084657ea7f5.ctex::
+battery.png::CompressedTexture2D/CompressedTexture2D::8451186021836836364::1765147366::1765147366::1::::<><><>0<>0<>7946133dbae9931183fb4140166430a0<>res://.godot/imported/battery.png-89a22cd3a3c96ef9d4e27ca310fccdbe.ctex::
+circle .png::CompressedTexture2D/CompressedTexture2D::3030533345391093390::1765147366::1765147366::1::::<><><>0<>0<>90e0998ae9fc077164ac015b94791a2c<>res://.godot/imported/circle .png-c6e2e7a810870c527ad19593e382b43f.ctex::
+Glitch.png::CompressedTexture2D/CompressedTexture2D::3823941526919600208::1765147366::1765147366::1::::<><><>0<>0<>613c5da53b06cd208bce4fa405cc5f03<>res://.godot/imported/Glitch.png-e38c9199134eee7ab97bbdd7b7b36611.ctex::
+::res://images/computer_dude_assets3/::1765147506
+Battery.png::CompressedTexture2D/CompressedTexture2D::9057713853995078683::1765147366::1765147366::1::::<><><>0<>0<>41f129d4c364ed15a4347ced8fbe32e7<>res://.godot/imported/Battery.png-a5bc69a4f2db1d490ed190499b4ca85f.ctex::
+Computer Dude BG.png::CompressedTexture2D/CompressedTexture2D::5590725381536484148::1765147366::1765147366::1::::<><><>0<>0<>0002d01d3e17220aeecddd22d3e9eb94<>res://.godot/imported/Computer Dude BG.png-d2ab521882355943178bbfeab80f947e.ctex::
+Computer Dude Fall.png::CompressedTexture2D/CompressedTexture2D::2863534687466200653::1765147366::1765147366::1::::<><><>0<>0<>eae797e0e9f3b048fd5b323a0ae1cce1<>res://.godot/imported/Computer Dude Fall.png-e4d92d78db799573c44f749eccb323e1.ctex::
+Computer Dude Idle Left.png::CompressedTexture2D/CompressedTexture2D::8404094611231261577::1765147366::1765147366::1::::<><><>0<>0<>6fef45d8d9608766bb763aca69df45a5<>res://.godot/imported/Computer Dude Idle Left.png-83d8b5a386d5e2cdad30151525cc439c.ctex::
+Computer Dude Idle.png::CompressedTexture2D/CompressedTexture2D::3926128431996303316::1765147366::1765147499::1::::<><><>0<>0<>a83247fe16d26c96abad4695e6e2f55f<>res://.godot/imported/Computer Dude Idle.png-fad2e97e5b6c8d1f9cadcfbdbd699065.ctex::
+Computer Dude Jump Rise.png::CompressedTexture2D/CompressedTexture2D::149211702009097214::1765147366::1765147366::1::::<><><>0<>0<>ea0ea64988d1b091043655c50930fc91<>res://.godot/imported/Computer Dude Jump Rise.png-b9eac9c4982abbb88654e5f7db75c0ad.ctex::
+Computer Dude Land.png::CompressedTexture2D/CompressedTexture2D::5688169742746779338::1765147366::1765147366::1::::<><><>0<>0<>fd1604d6da37db6634cd435426921cee<>res://.godot/imported/Computer Dude Land.png-d1b4d263c317636c697a3557d249982d.ctex::
+Computer Dude Life Battery Timer.png::CompressedTexture2D/CompressedTexture2D::7834933055066616054::1765147366::1765147366::1::::<><><>0<>0<>caf5de9f9692a7cb6f416f094aac4933<>res://.godot/imported/Computer Dude Life Battery Timer.png-916ac7786f8ba717cf098fd0fbdf1796.ctex::
+Computer Dude Logo.png::CompressedTexture2D/CompressedTexture2D::4286133627172506263::1765147366::1765147366::1::::<><><>0<>0<>52afbe18475d02119dbcc6d6d6e198da<>res://.godot/imported/Computer Dude Logo.png-eaa3054285dd0ab768fe7b731cc9cb0a.ctex::
+Computer Dude Run Left.png::CompressedTexture2D/CompressedTexture2D::3225130499243864368::1765147366::1765147366::1::::<><><>0<>0<>bed3308839de3344fa4c250af18b253a<>res://.godot/imported/Computer Dude Run Left.png-1d9821e09084e0ad8dea1fb79c4cea67.ctex::
+Computer Dude Run.png::CompressedTexture2D/CompressedTexture2D::5863591441955484730::1765147366::1765147506::1::::<><><>0<>0<>50b5792d44715b48068bc346cc849770<>res://.godot/imported/Computer Dude Run.png-765104327f92fffd25e44b8dddda3b1d.ctex::
+Computer Man Screw.png::CompressedTexture2D/CompressedTexture2D::6365178367808681360::1765147366::1765147366::1::::<><><>0<>0<>165e7673adadb8edaf5f4352205dd4cb<>res://.godot/imported/Computer Man Screw.png-73b0773a60002447facdcd2dcd660cce.ctex::
+Computer Man TV.png::CompressedTexture2D/CompressedTexture2D::8179409775583933999::1765147366::1765147366::1::::<><><>0<>0<>0332d20f687902cf6e32341599bafaa4<>res://.godot/imported/Computer Man TV.png-1362055b0927fb3e09523d8ad55b4c48.ctex::
+::res://music/::1765147366
+battle.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::2330581461087210413::1765147366::1765147366::1::::<><><>0<>0<>87ed3c36ab608cc1f22cf1e45e45752b<>res://.godot/imported/battle.ogg-6228c865b3a250e83e50c2794d7666d7.oggvorbisstr::
+menu.ogg::AudioStreamOggVorbis/AudioStreamOggVorbis::1110924626454014622::1765147366::1765147366::1::::<><><>0<>0<>cb44574241303fa1749eb61640ff42cb<>res://.godot/imported/menu.ogg-72ed303c979cd06c58c7ef1073842730.oggvorbisstr::
+ShepherdBot.gd::GDScript/GDScript::9707548782180949::1765147366::0::1::::<>Node<><>0<>0<><>::
+::res://sounds/::1765147366
+boost.wav::AudioStreamWAV/AudioStreamWAV::1627951986595728609::1765147366::1765147366::1::::<><><>0<>0<>44f00abb8aabceada4e9017dfe60c180<>res://.godot/imported/boost.wav-f980a2c64159ba9cd99995de535bb089.sample::
+crashed.wav::AudioStreamWAV/AudioStreamWAV::7017317959102949170::1765147366::1765147366::1::::<><><>0<>0<>29b5bd7bfbb18f9d213cf8fc29961b41<>res://.godot/imported/crashed.wav-d75b4f9e579ed649c786d33bbeb75181.sample::
+hit.wav::AudioStreamWAV/AudioStreamWAV::8122619124768194469::1765147366::1765147366::1::::<><><>0<>0<>fb28d496c6ce8f3e9b951b6726aa8c04<>res://.godot/imported/hit.wav-f26a842ad2e8592c85f7f75c8791800e.sample::
+select.wav::AudioStreamWAV/AudioStreamWAV::9013310961459031474::1765147366::1765147366::1::::<><><>0<>0<>e3225643171879b86a4b98e98477b948<>res://.godot/imported/select.wav-bceeb6846ca3863c8ad7278557d7416b.sample::

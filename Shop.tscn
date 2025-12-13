@@ -1,0 +1,95 @@
+[gd_scene load_steps=4 format=3 uid="uid://cua36kdk8881g"]
+
+[ext_resource type="Texture2D" uid="uid://dosfxixbjrudb" path="res://images/computer_dude_assets3/Computer Man TV.png" id="1_c53l5"]
+[ext_resource type="Script" uid="uid://cce74hu1cxqu3" path="res://Shop.gd" id="1_f511j"]
+[ext_resource type="Texture2D" uid="uid://cnbnlbirohgdu" path="res://images/computer_dude_assets3/Computer Dude Land.png" id="2_7ae35"]
+
+[node name="Shop" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_f511j")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_c53l5")
+expand_mode = 1
+
+[node name="GearDisplay" type="Label" parent="."]
+layout_mode = 0
+offset_left = 500.0
+offset_top = 20.0
+offset_right = 620.0
+offset_bottom = 65.0
+theme_override_font_sizes/font_size = 32
+text = "Gears: 0"
+horizontal_alignment = 1
+
+[node name="ShopkeeperDialogue" type="Label" parent="."]
+layout_mode = 0
+offset_left = 81.0
+offset_top = 60.0
+offset_right = 401.0
+offset_bottom = 159.0
+theme_override_font_sizes/font_size = 18
+text = "Welcome, unit."
+autowrap_mode = 3
+
+[node name="UpgradePanel" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -179.0
+offset_top = -259.0
+offset_right = 178.0
+offset_bottom = 231.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 30
+
+[node name="ChassisButton" type="Button" parent="UpgradePanel"]
+custom_minimum_size = Vector2(350, 100)
+layout_mode = 2
+text = "Chassis Upgrade"
+
+[node name="PropulsionButton" type="Button" parent="UpgradePanel"]
+custom_minimum_size = Vector2(350, 100)
+layout_mode = 2
+text = "Propulsion Upgrade"
+
+[node name="WeaponButton" type="Button" parent="UpgradePanel"]
+custom_minimum_size = Vector2(350, 100)
+layout_mode = 2
+text = "Weapon System"
+
+[node name="ArmorButton" type="Button" parent="UpgradePanel"]
+custom_minimum_size = Vector2(350, 100)
+layout_mode = 2
+text = "Armor"
+
+[node name="ContinueButton" type="Button" parent="."]
+custom_minimum_size = Vector2(300, 60)
+layout_mode = 0
+offset_left = 801.0
+offset_top = 574.0
+offset_right = 1101.0
+offset_bottom = 634.0
+text = "Continue to Next Stage"
+
+[node name="ShopkeeperSprite" type="Sprite2D" parent="."]
+position = Vector2(202.437, 339.5)
+scale = Vector2(9.76293, 10.2333)
+texture = ExtResource("2_7ae35")
+hframes = 3
+frame = 2

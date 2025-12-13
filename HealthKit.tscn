@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://b2dpp1qartklx"]
+
+[ext_resource type="Script" uid="uid://1i4es0t56n3t" path="res://HealthKit.gd" id="1_bgtke"]
+
+[node name="HealthKit" type="Area2D"]
+script = ExtResource("1_bgtke")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
